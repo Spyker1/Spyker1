@@ -214,6 +214,6 @@ Whether you have a question, want to collaborate on a full-stack / AI project, o
   <!-- Footer Banner Wave -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,14,24,30&height=120&section=footer" width="100%" alt="Footer Banner" />
 
-  <sub>Crafted with passion & code by <b>Julián Alejandro Rodríguez López (<a href="https://github.com/Spyker1">Spyker1</a>)</b></sub>
+  <sub><b>Julián Alejandro Rodríguez López (<a href="https://github.com/Spyker1">Spyker1</a>)</b></sub>
 
 </div>
