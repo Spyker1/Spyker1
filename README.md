@@ -40,24 +40,28 @@
 ### 👨‍💻 Developer Summary
 
 ```typescript
-// 🚀 Developer Profile: Julian Rodriguez (Spyker1)
+// 🚀 Technical Profile: Julian Rodriguez (Spyker1)
 const julian: SoftwareEngineer = {
   title: "Software Engineer & Full-Stack Developer",
   location: "Tampico, Tamaulipas, México",
-  education: "B.S. in Software Engineering @ Instituto Tecnológico de Ciudad Madero ('26)",
+  education: "B.S. in Software Engineering @ ITCM ('26)",
   coreStack: ["React", "Next.js", "TypeScript", "Node.js", "Supabase", "Tailwind CSS"],
-  specializations: [
-    "Omnichannel E-Commerce & POS Platforms with Hardware Integration",
-    "Multi-Model AI Integrations (Contextual LLMs & AI Image Generation)",
+  architecturalFocus: [
+    "Omnichannel E-Commerce & POS Systems with Hardware / Thermal Barcode Integration",
+    "Multi-Model AI Solutions (Contextual LLMs & AI Media Generation)",
     "Real-time Relational Data Architectures (Supabase / PostgreSQL / MySQL)",
-    "Cloud Deployments & Infrastructure (Vercel, GCP, Docker, DNS Automation)",
+    "Cloud Infrastructure & CI/CD (Vercel, GCP, Docker, Custom DNS Automation)",
   ],
-  currentRole: "Software Engineering Resident (Clever Labs) @ Clever Cloud",
+  technicalInterests: [
+    "Distributed Cloud Architectures",
+    "Real-Time Data Streaming",
+    "AI Agentic Workflows",
+    "High-Concurrency Web Systems",
+  ],
   languages: {
     spanish: "Native",
     english: "B2+ Upper Intermediate",
   },
-  interests: ["Cloud Architecture", "IoT & Automation", "E-Commerce Scalability", "Weightlifting", "Hiking"],
 };
 ```
 
@@ -75,97 +79,83 @@ const julian: SoftwareEngineer = {
 
 <div align="center">
 
-| 🎨 **Frontend Development** | ⚙️ **Backend & Databases** |
+| 🎨 **Frontend Architecture** | ⚙️ **Backend & Databases** |
 | :--- | :--- |
-| • **Core:** TypeScript, JavaScript (ES6+), HTML5, CSS3<br/>• **Frameworks:** React.js, Next.js (App Router), Vite<br/>• **Styling:** Tailwind CSS, SASS / SCSS, CSS Modules<br/>• **UI/UX:** Responsive Design, SEO Optimization, Web Vitals | • **Runtimes & Frameworks:** Node.js, Express.js, REST APIs<br/>• **Data & BaaS:** Supabase, PostgreSQL, MySQL<br/>• **Secondary Languages:** Python (State-machines, IoT), PHP<br/>• **Auth & Security:** Role-Based Access Control (RBAC), JWT |
+| • **Core:** TypeScript, JavaScript (ES6+), HTML5, CSS3<br/>• **Frameworks:** React.js, Next.js (App Router), Vite<br/>• **Styling:** Tailwind CSS, SASS / SCSS, CSS Modules<br/>• **UI/UX:** Component-Driven Architecture, Web Vitals, SEO | • **Runtimes & Frameworks:** Node.js, Express.js, RESTful APIs<br/>• **Data & BaaS:** Supabase, PostgreSQL, MySQL<br/>• **Secondary Languages:** Python (Automation, State-Machines), PHP<br/>• **Auth & Security:** Role-Based Access Control (RBAC), JWT |
 
-| ☁️ **Cloud, DevOps & Infra** | 🤖 **AI, Analytics & Tools** |
+| ☁️ **Cloud, DevOps & Infra** | 🤖 **AI, Analytics & QA** |
 | :--- | :--- |
-| • **Deployment:** Vercel, Netlify, Google Cloud (GCP)<br/>• **Containers & CI/CD:** Docker, GitHub Actions, Git<br/>• **Networking:** Custom DNS Propagation, Domain Routing<br/>• **Audit:** Google Search Console, Lighthouse, Web Health | • **AI Models:** OpenAI / GPT APIs, Leonardo AI<br/>• **Analytics & Heatmaps:** Microsoft Clarity (User Journey)<br/>• **Testing & QA:** Postman (API Testing), Black-Box QA<br/>• **Methodologies:** Scrum / Agile, Figma UI Design, VS Code |
+| • **Deployment:** Vercel, Netlify, Google Cloud (GCP)<br/>• **Containers & CI/CD:** Docker, GitHub Actions, Git Workflows<br/>• **Networking:** Custom DNS Propagation, Domain Routing<br/>• **Audit & Performance:** Google Search Console, Lighthouse | • **AI Integration:** OpenAI / GPT APIs, Leonardo AI<br/>• **Analytics & Heatmaps:** Microsoft Clarity (User Journey)<br/>• **Testing & QA:** Postman (API Automation), Black-Box Testing<br/>• **Workflow:** Scrum / Agile, Figma UI Design, VS Code |
 
 </div>
 
 ---
 
-### 🌟 Featured Experience & Showcase Projects
+### 🌟 Featured Systems & Engineering Case Studies
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🎮 Clever Founder App</h3>
-      <p><b>Clever Cloud (Clever Labs)</b> — <i>Software Engineering Resident</i></p>
-      <p>Designed and built the MVP for an AI-powered gamified platform with real-time analytics and dynamic content generation.</p>
+      <h3>🛒 Omnichannel E-Commerce & Physical POS System</h3>
+      <p><i>Full-Stack Architecture & Real-Time Sync</i></p>
+      <p>Unified retail platform bridging online e-commerce storefronts with physical Point-of-Sale (POS) cashier terminals.</p>
       <ul>
-        <li>Integrated OpenAI GPT (contextual prompting) & Leonardo AI APIs.</li>
-        <li>Architected relational database and auth flows with Supabase.</li>
-        <li>Integrated Microsoft Clarity for visual heatmaps and UX behavior tracking.</li>
-      </ul>
-      <p>
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TS" />
-        <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
-        <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🛒 Playex Market</h3>
-      <p><b>Unified E-Commerce & Physical POS</b> — <i>Full-Stack Developer</i></p>
-      <p>Architected an omnichannel retail platform linking online e-commerce storefronts with physical store Point-of-Sale (POS) terminals.</p>
-      <ul>
-        <li>Real-time inventory synchronization powered by Supabase.</li>
-        <li>Backend logic for automatic barcode generation and thermal receipt printing.</li>
-        <li>Segmented UI with Role-Based Access Control (RBAC) for admins and staff.</li>
+        <li><b>Real-Time Sync:</b> Instant inventory synchronization across digital and physical stores using Supabase.</li>
+        <li><b>Hardware Integration:</b> Automated unique barcode generation and direct thermal label/receipt printing pipeline.</li>
+        <li><b>Security:</b> Segmented interface with Role-Based Access Control (RBAC) separating staff from administration.</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
         <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TS" />
         <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
         <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
       </p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
-      <h3>🌐 Plataforma Web Fernanda Gómez</h3>
-      <p><b>Project Lead & Full-Stack Developer</b></p>
-      <p>End-to-end web platform development, infrastructure migration, and technical search engine optimization.</p>
+      <h3>🎮 AI-Augmented Gamified Platform</h3>
+      <p><i>Multi-Model AI Integration & MVP Architecture</i></p>
+      <p>End-to-end MVP architecture for an interactive gamified web/mobile ecosystem powered by generative AI models.</p>
       <ul>
-        <li>Engineered complete client-side architecture with React & Tailwind CSS.</li>
-        <li>Executed technical infrastructure migration from Netlify to Vercel.</li>
-        <li>Configured custom DNS routing and monthly maintenance via Search Console.</li>
+        <li><b>Multi-Model AI:</b> Integrated OpenAI GPT APIs for contextual conversational chats and Leonardo AI for dynamic asset generation.</li>
+        <li><b>Data Architecture:</b> Relational database schema, state persistence, and secure authentication flows in Supabase.</li>
+        <li><b>Behavioral UX:</b> Real-time session recordings and heatmaps via Microsoft Clarity to optimize user engagement.</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-        <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind" />
-        <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
-        <img src="https://img.shields.io/badge/SEO-4285F4?style=flat-square&logo=google&logoColor=white" alt="SEO" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>📊 PEM (Publicidad en Movimiento)</h3>
-      <p><b>Freelance Full-Stack Developer</b></p>
-      <p>Custom CRM and hybrid web platform designed to streamline lead capture, client pipelines, and operational tracking.</p>
-      <ul>
-        <li>Designed custom CRM system with Supabase relational data persistence.</li>
-        <li>Administered production deployment on Vercel and DNS migration in Wix.</li>
-        <li>Applied technical SEO strategies and frontend performance tuning.</li>
-      </ul>
-      <p>
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TS" />
-        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node" />
+        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
+        <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
         <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
-        <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
       </p>
     </td>
   </tr>
   <tr>
-    <td colspan="2" valign="top">
-      <h3>🤖 IoT Telegram Bot (Embedded Systems & Automation)</h3>
-      <p><b>Automation & Embedded Systems Developer</b></p>
-      <p>Python automation tool to remotely configure Arduino microcontrollers via Serial/Bluetooth, allowing sensor and network management via Telegram chat commands.</p>
+    <td width="50%" valign="top">
+      <h3>📊 Custom Pipeline CRM & Web Engine</h3>
+      <p><i>Data Persistence & Cloud Infrastructure</i></p>
+      <p>Tailored CRM system and client-facing web platform built for high-performance prospect tracking and lead management.</p>
       <ul>
-        <li>Integrated external REST APIs to fetch analytics and generate dynamic data charts directly in memory (IO Streams).</li>
-        <li>Implemented robust state-machine logic for multi-step interactive commands and error handling.</li>
+        <li><b>Custom Pipeline:</b> Built lead tracking and prospect pipeline management backed by Supabase relational persistence.</li>
+        <li><b>DevOps & DNS:</b> Production deployment on Vercel with complex DNS propagation and record mapping across registrar domains.</li>
+        <li><b>SEO & Optimization:</b> Frontend performance engineering and technical SEO strategy with Tailwind CSS.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TS" />
+        <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind" />
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node" />
+        <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🤖 IoT Remote Controller & Real-Time Analytics</h3>
+      <p><i>Embedded Automation & Stream Processing</i></p>
+      <p>Python automation platform to remotely configure, monitor, and query Arduino hardware modules via chat interface.</p>
+      <ul>
+        <li><b>Hardware Control:</b> Remote configuration of Arduino microcontrollers via Serial/Bluetooth protocol commands.</li>
+        <li><b>In-Memory Analytics:</b> Real-time data fetching and dynamic chart/histogram generation using in-memory IO streams.</li>
+        <li><b>State-Machine Architecture:</b> Finite state machine logic for reliable multi-step user workflows and error handling.</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
@@ -181,7 +171,7 @@ const julian: SoftwareEngineer = {
 
 ### 📬 Get In Touch
 
-Whether you have a question, want to collaborate on a full-stack / AI project, or are looking for a dedicated engineer for your team, my inbox is always open!
+Whether you're looking to discuss full-stack architectures, explore AI model integrations, or collaborate on scalable web applications:
 
 <div align="center">
 
@@ -196,7 +186,6 @@ Whether you have a question, want to collaborate on a full-stack / AI project, o
   <a href="mailto:alexrdz1221@gmail.com">
     <img src="https://img.shields.io/badge/Email_Me-alexrdz1221@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  &nbsp;
 
 </div>
 
