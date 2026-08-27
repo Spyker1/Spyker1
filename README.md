@@ -40,28 +40,23 @@
 ### 👨‍💻 Developer Summary
 
 ```typescript
-// 🚀 Technical Profile: Julian Rodriguez (Spyker1)
-const julian: SoftwareEngineer = {
-  title: "Software Engineer & Full-Stack Developer",
-  location: "Tampico, Tamaulipas, México",
-  education: "B.S. in Software Engineering @ ITCM ('26)",
-  coreStack: ["React", "Next.js", "TypeScript", "Node.js", "Supabase", "Tailwind CSS"],
-  architecturalFocus: [
-    "Omnichannel E-Commerce & POS Systems with Hardware / Thermal Barcode Integration",
-    "Multi-Model AI Solutions (Contextual LLMs & AI Media Generation)",
-    "Real-time Relational Data Architectures (Supabase / PostgreSQL / MySQL)",
-    "Cloud Infrastructure & CI/CD (Vercel, GCP, Docker, Custom DNS Automation)",
-  ],
-  technicalInterests: [
-    "Distributed Cloud Architectures",
-    "Real-Time Data Streaming",
-    "AI Agentic Workflows",
-    "High-Concurrency Web Systems",
-  ],
-  languages: {
-    spanish: "Native",
-    english: "B2+ Upper Intermediate",
+// 🚀 Technical Architecture & Engineering Profile
+const engineer: FullStackArchitect = {
+  name: "Julian Rodriguez (Spyker1)",
+  role: "Software Engineer & Full-Stack Developer",
+  coreStack: {
+    frontend: ["React.js", "Next.js (App Router)", "TypeScript", "Tailwind CSS", "Vite"],
+    backend: ["Node.js", "Express.js", "Supabase", "PostgreSQL", "REST APIs"],
+    cloudAndDevOps: ["Vercel", "Google Cloud (GCP)", "Docker", "GitHub Actions", "DNS Management"],
   },
+  architecturalPatterns: [
+    "Event-driven & real-time data synchronization",
+    "Omnichannel POS & web systems with thermal hardware / barcode integrations",
+    "Multi-model AI workflows (Contextual LLMs & generative media pipelines)",
+    "Role-Based Access Control (RBAC) & secure authentication flows",
+  ],
+  currentFocus: "Architecting AI-augmented platforms, scalable full-stack apps & real-time engines",
+  philosophy: "Clean, modular, performant & resilient architectures built for production scale",
 };
 ```
 
