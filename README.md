@@ -22,10 +22,6 @@
   <a href="mailto:alexrdz1221@gmail.com">
     <img src="https://img.shields.io/badge/Email_Me-alexrdz1221@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  &nbsp;
-  <a href="https://wa.me/525548932429" target="_blank">
-    <img src="https://img.shields.io/badge/WhatsApp-Let's_Chat-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
-  </a>
 
   <br/><br/>
 
@@ -201,9 +197,6 @@ Whether you have a question, want to collaborate on a full-stack / AI project, o
     <img src="https://img.shields.io/badge/Email_Me-alexrdz1221@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   &nbsp;
-  <a href="https://wa.me/525548932429" target="_blank">
-    <img src="https://img.shields.io/badge/WhatsApp-Message_Me-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
-  </a>
 
 </div>
 
