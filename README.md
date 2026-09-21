@@ -45,11 +45,12 @@ const engineer: FullStackArchitect = {
   name: "Julian Rodriguez (Spyker1)",
   role: "Software Engineer & Full-Stack Developer",
   coreStack: {
-    frontend: ["React.js", "Next.js (App Router)", "TypeScript", "Tailwind CSS", "Vite"],
+    frontend: ["React.js", "Next.js (App Router)", "TypeScript", "Tailwind CSS", "WebAssembly (WASM)", "Vite"],
     backend: ["Node.js", "Express.js", "Supabase", "PostgreSQL", "REST APIs"],
     cloudAndDevOps: ["Vercel", "Google Cloud (GCP)", "Docker", "GitHub Actions", "DNS Management"],
   },
   architecturalPatterns: [
+    "Client-side media pipelines & WASM/WebGL compositing engines",
     "Event-driven & real-time data synchronization",
     "Omnichannel POS & web systems with thermal hardware / barcode integrations",
     "Multi-model AI workflows (Contextual LLMs & generative media pipelines)",
@@ -66,7 +67,7 @@ const engineer: FullStackArchitect = {
 
 <div align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,vite,tailwind,sass,nodejs,express,supabase,postgres,mysql,python,php,docker,gcp,vercel,netlify,git,github,postman,figma,vscode&perline=12" alt="Tech Stack Icons Grid" />
+    <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,vite,tailwind,sass,wasm,nodejs,express,supabase,postgres,mysql,python,php,docker,gcp,vercel,netlify,git,github,postman,figma,vscode&perline=12" alt="Tech Stack Icons Grid" />
   </a>
 </div>
 
@@ -76,7 +77,7 @@ const engineer: FullStackArchitect = {
 
 | 🎨 **Frontend Architecture** | ⚙️ **Backend & Databases** |
 | :--- | :--- |
-| • **Core:** TypeScript, JavaScript (ES6+), HTML5, CSS3<br/>• **Frameworks:** React.js, Next.js (App Router), Vite<br/>• **Styling:** Tailwind CSS, SASS / SCSS, CSS Modules<br/>• **UI/UX:** Component-Driven Architecture, Web Vitals, SEO | • **Runtimes & Frameworks:** Node.js, Express.js, RESTful APIs<br/>• **Data & BaaS:** Supabase, PostgreSQL, MySQL<br/>• **Secondary Languages:** Python (Automation, State-Machines), PHP<br/>• **Auth & Security:** Role-Based Access Control (RBAC), JWT |
+| • **Core:** TypeScript, JavaScript (ES6+), HTML5, CSS3<br/>• **Frameworks:** React.js, Next.js (App Router), Vite<br/>• **Styling:** Tailwind CSS, SASS / SCSS, CSS Modules<br/>• **Media & Engines:** WebAssembly (FFmpeg.wasm), WebGL, Canvas 2D, Web Audio API<br/>• **UI/UX:** Component-Driven Architecture, Web Vitals, SEO | • **Runtimes & Frameworks:** Node.js, Express.js, RESTful APIs<br/>• **Data & BaaS:** Supabase, PostgreSQL, MySQL<br/>• **Secondary Languages:** Python (Automation, State-Machines), PHP<br/>• **Auth & Security:** Role-Based Access Control (RBAC), JWT |
 
 | ☁️ **Cloud, DevOps & Infra** | 🤖 **AI, Analytics & QA** |
 | :--- | :--- |
@@ -89,6 +90,27 @@ const engineer: FullStackArchitect = {
 ### 🌟 Featured Systems & Engineering Case Studies
 
 <table>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3>🎬 CutForge Studio Pro — High-Performance Browser NLE</h3>
+      <p><i>Client-Side Video Compositing, WebGL Shaders, Web Audio DSP & FFmpeg WebAssembly</i></p>
+      <p>Browser-native Non-Linear Video Editor (NLE) enabling creators to trim, composite, key, mix, and render multi-track video directly on the web without remote servers or privacy trade-offs.</p>
+      <ul>
+        <li><b>Rendering & VFX Engine:</b> High-throughput Canvas 2D and WebGL compositing pipeline featuring real-time Chroma Key green screen removal, color grading matrix, and instant timeline filmstrip generation.</li>
+        <li><b>Web Audio DSP Rack:</b> Multi-track audio processing rack with <code>BiquadFilterNodes</code> for 3-band parametric EQ, <code>GainNode</code> mixing, and real-time RMS stereo VU metering via <code>AnalyserNode</code>.</li>
+        <li><b>Client-Side WASM & Local-First State:</b> Multi-threaded FFmpeg WebAssembly (<code>@ffmpeg/ffmpeg</code>) transcoding with Cross-Origin Isolation (COOP/COEP), backed by Zustand 5 (magnetic reflow, deep-cloned history stack), IndexedDB persistence, and portable <code>.cutforge</code> project packaging via JSZip.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js 16" />
+        <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React 19" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/Tailwind_CSS_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+        <img src="https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white" alt="WASM" />
+        <img src="https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white" alt="WebGL" />
+        <img src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white" alt="FFmpeg" />
+      </p>
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>🛒 Omnichannel E-Commerce & Physical POS System</h3>
