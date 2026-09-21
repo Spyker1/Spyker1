@@ -5,7 +5,7 @@
 
   <!-- Animated Typing SVG with High Contrast Cyan/Purple Palette -->
   <a href="https://julian-alejandro-rodriguez-lopez.netlify.app/">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Software+Engineer+%26+Full-Stack+Architect;React+%E2%80%A2+Next.js+%E2%80%A2+TypeScript+%E2%80%A2+Node.js;Real-Time+Databases+with+Supabase;AI+Integrations+(OpenAI+GPT+%26+Leonardo+AI);Omnichannel+E-Commerce+%26+POS+Systems;Building+Scalable+%26+Impactful+Products" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Software+Engineer+%26+Full-Stack+Architect;Scalable+Web+%26+Cloud+Architectures;Real-Time+Databases+with+Supabase;AI+Integrations+(OpenAI+GPT+%26+Leonardo+AI);Omnichannel+E-Commerce+%26+POS+Systems;Building+Scalable+%26+Impactful+Products" alt="Typing SVG" />
   </a>
 
   <br/><br/>
@@ -44,11 +44,6 @@
 const engineer: FullStackArchitect = {
   name: "Julian Rodriguez (Spyker1)",
   role: "Software Engineer & Full-Stack Developer",
-  coreStack: {
-    frontend: ["React.js", "Next.js (App Router)", "TypeScript", "Tailwind CSS", "WebAssembly (WASM)", "Vite"],
-    backend: ["Node.js", "Express.js", "Supabase", "PostgreSQL", "REST APIs"],
-    cloudAndDevOps: ["Vercel", "Google Cloud (GCP)", "Docker", "GitHub Actions", "DNS Management"],
-  },
   architecturalPatterns: [
     "Client-side media pipelines & WASM/WebGL compositing engines",
     "Event-driven & real-time data synchronization",
